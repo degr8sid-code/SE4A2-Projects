@@ -1,0 +1,35 @@
+
+
+
+
+
+
+tcpdump is a very useful command to inspect and capture network packets that go into and from your machine. It’s one of the most common networking utilities to troubleshoot network problems and security issues.
+
+Although its name is tcpdump but it can be used to inspect non-TCP traffic included UDP, ARP, or ICMP.
+
+This tutorial will show you the way to use the tcpdump command in a Linux system.
+
+
+
+
+
+
+
+If you want to capture packets on a specific network interface and limits packet to 6, run the following command:sudo tcpdump -D
+
+
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ sudo tcpdump -D
+1.enp2s0 [Up, Running, Connected]
+2.any (Pseudo-device that captures on all interfaces) [Up, Running]
+3.lo [Up, Running, Loopback]
+4.bluetooth-monitor (Bluetooth Linux Monitor) [Wireless]
+5.nflog (Linux netfilter log (NFLOG) interface) [none]
+6.nfqueue (Linux netfilter queue (NFQUEUE) interface) [none]
+7.dbus-system (D-Bus system bus) [none]
+8.dbus-session (D-Bus session bus) [none]
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ sudo tcpdump -i eth0 -c 6
+tcpdump: eth0: No such device exists
+(SIOCGIFHWADDR: No such device)
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ nano tcpdump.txt
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ 
