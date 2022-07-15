@@ -1,8 +1,0 @@
-
-
-These tools will report back every time it routes through another part of the network. This report will let you know the hostname of the hop and the time it takes to communicate with that hop.
-
-The reports produced by a traceroute can be incredibly helpful in diagnosing potential network problems.
-To show you how this traceroute command works on Ubuntu, we will be running a quick test to route the connection from our computer to “google.com“.
-
-Using this command will give us an idea of how many hops our connection needs to make to reach its destination and how long these hops are taking to complete
