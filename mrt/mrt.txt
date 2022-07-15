@@ -1,0 +1,40 @@
+
+
+
+
+
+Mtr (my traceroute) is a command-line network diagnostic tool that provides the functions of the ping and traceroute commands. It is a simple and cross-platform tool that outputs information about the entire route that network packets take from the host system to the specified destination system. The mtr command is superior to the traceroute command because it also outputs the response percentage and response times for all network hops between the two systems.
+
+
+
+
+
+
+
+
+tr command displays the hostnames in the traceroute report:
+
+
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ sudo apt-get install mrt
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package mrt
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ mrt version
+Command 'mrt' not found, but there are 20 similar ones.
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ mrt -report
+Command 'mrt' not found, but there are 20 similar ones.
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ -r–report
+-r–report: command not found
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ mrt -r–report
+Command 'mrt' not found, but there are 20 similar ones.
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ mtr google.com
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ mrt youtube.com
+Command 'mrt' not found, but there are 20 similar ones.
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ mtr -g google.com
+mtr: invalid option -- 'g'
+
+Usage:
+ mtr [options] hostname
+
+

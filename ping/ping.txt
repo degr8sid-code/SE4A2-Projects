@@ -1,0 +1,44 @@
+
+ping command is use for these 
+
+Checking status of network
+    Check internet connection
+    Check for network Issues
+
+
+
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop$ CD analysis
+CD: command not found
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop$ cd analysis
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ ping -i 3 youtube.com
+PING youtube.com (172.217.18.142) 56(84) bytes of data.
+64 bytes from mct01s09-in-f14.1e100.net (172.217.18.142): icmp_seq=1 ttl=116 time=23.9 ms
+64 bytes from arn02s05-in-f142.1e100.net (172.217.18.142): icmp_seq=2 ttl=116 time=22.1 ms
+64 bytes from mct01s09-in-f14.1e100.net (172.217.18.142): icmp_seq=3 ttl=116 time=22.4 ms
+64 bytes from mct01s09-in-f14.1e100.net (172.217.18.142): icmp_seq=4 ttl=116 time=21.7 ms
+64 bytes from arn02s05-in-f142.1e100.net (172.217.18.142): icmp_seq=5 ttl=116 time=22.3 ms
+64 bytes from arn02s05-in-f142.1e100.net (172.217.18.142): icmp_seq=6 ttl=116 time=22.6 ms
+64 bytes from arn02s05-in-f142.1e100.net (172.217.18.142): icmp_seq=7 ttl=116 time=21.7 ms
+64 bytes from mct01s09-in-f14.1e100.net (172.217.18.142): icmp_seq=8 ttl=116 time=22.1 ms
+64 bytes from arn02s05-in-f142.1e100.net (172.217.18.142): icmp_seq=9 ttl=116 time=21.7 ms
+64 bytes from mct01s09-in-f14.1e100.net (172.217.18.142): icmp_seq=10 ttl=116 time=21.7 ms
+64 bytes from arn02s05-in-f142.1e100.net (172.217.18.142): icmp_seq=11 ttl=116 time=22.5 ms
+64 bytes from arn02s05-in-f142.1e100.net (172.217.18.142): icmp_seq=12 ttl=116 time=22.8 ms
+64 bytes from arn02s05-in-f142.1e100.net (172.217.18.142): icmp_seq=13 ttl=116 time=22.6 ms
+64 bytes from mct01s09-in-f14.1e100.net (172.217.18.142): icmp_seq=14 ttl=116 time=21.7 ms
+^X64 bytes from arn02s05-in-f142.1e100.net (172.217.18.142): icmp_seq=15 ttl=116 time=21.9 ms
+64 bytes from mct01s09-in-f14.1e100.net (172.217.18.142): icmp_seq=16 ttl=116 time=22.5 ms
+kill
+64 bytes from mct01s09-in-f14.1e100.net (172.217.18.142): icmp_seq=17 ttl=116 time=22.1 ms
+64 bytes from mct01s09-in-f14.1e100.net (172.217.18.142): icmp_seq=18 ttl=116 time=21.7 ms
+^Z
+[1]+  Stopped                 ping -i 3 youtube.com
+
+
+
+
+second command
+pk@pk-HP-Pro-3130-Microtower-PC:~/Desktop/analysis$ ping -V
+ping from iputils 20211215
+
+    
