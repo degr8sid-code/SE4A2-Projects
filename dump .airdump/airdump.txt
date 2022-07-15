@@ -1,1 +1,0 @@
-Airodump-ng is a wireless sniffer that can capture wireless data from one or more wireless Access Points. It is used to analyze nearby Access Points and to capture handshakes. Aireplay-ng is used for replay attacks and as packet injector. It can be de-authenticate users from their APs to capture handshakes.
