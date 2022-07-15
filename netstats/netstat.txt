@@ -1,1 +1,0 @@
-he netstat Linux command is used by system administrators to see information about network connections. Netstat is a powerful utility that can print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
