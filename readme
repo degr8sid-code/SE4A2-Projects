@@ -1,0 +1,6 @@
+Description:
+To set up SSH on Linux and access from Windows using puTTy.
+First get the ip address of the server using "ifconfig" in linux terminal. 
+Once we got the ip address, copy and paste it to the URL tab in puTTy to establish the connection.
+It will ask for ubuntu UserId and Password to get the connections established.
+now enjoy!
