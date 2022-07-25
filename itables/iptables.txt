@@ -1,0 +1,1 @@
+iptables is a firewall, installed by default on all official Ubuntu distributions (Ubuntu, Kubuntu, Xubuntu). When you install Ubuntu, iptables is there, but it allows all traffic by default. Ubuntu comes with ufw - a program for managing the iptables firewall easily.
