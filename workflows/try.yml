@@ -1,0 +1,15 @@
+name: Try powershell
+on: push
+
+jobs:
+   build:
+    name: Powershell Commands
+    runs-on: ubuntu-latest 
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3 
+        
+      - name: Build
+        shell: pwsh
+        run: |
+              .\build.ps1
