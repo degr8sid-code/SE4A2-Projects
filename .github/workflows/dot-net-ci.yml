@@ -22,4 +22,4 @@ jobs:
         uses: NuGet/setup-nuget@v1.0.6  
         
       - name: Build the solution
-        run: msbuild ./DotNetProject.sln
+        run: msbuild DotNetProject.sln
