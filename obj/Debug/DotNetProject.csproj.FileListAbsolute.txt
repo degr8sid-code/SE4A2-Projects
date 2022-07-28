@@ -1,0 +1,6 @@
+C:\Users\alifa\source\repos\DotNetProject\bin\Debug\DotNetProject.exe
+C:\Users\alifa\source\repos\DotNetProject\bin\Debug\DotNetProject.pdb
+C:\Users\alifa\source\repos\DotNetProject\obj\Debug\DotNetProject.csproj.AssemblyReference.cache
+C:\Users\alifa\source\repos\DotNetProject\obj\Debug\DotNetProject.csproj.CoreCompileInputs.cache
+C:\Users\alifa\source\repos\DotNetProject\obj\Debug\DotNetProject.exe
+C:\Users\alifa\source\repos\DotNetProject\obj\Debug\DotNetProject.pdb
