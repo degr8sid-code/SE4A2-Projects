@@ -21,8 +21,5 @@ jobs:
       - name: setup-nuget 
         uses: NuGet/setup-nuget@v1.0.6  
         
-      - name: restore nuget packages
-        run: nuget restore DotNetProject.sln
-        
       - name: Build the solution
         run: msbuild DotNetProject.sln
