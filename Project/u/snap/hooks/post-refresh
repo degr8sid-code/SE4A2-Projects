@@ -1,0 +1,3 @@
+#!/bin/bash
+# Creates the environment file after refresh updates
+"${SNAP:?}/bin/envhook.sh"
